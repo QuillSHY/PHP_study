@@ -1,0 +1,5 @@
+GitHub Comments
+
+- git add <file name>
+
+- git commit -m "comments"
