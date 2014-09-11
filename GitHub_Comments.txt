@@ -3,3 +3,10 @@ GitHub Comments
 - git add <file name>
 
 - git commit -m "comments"
+
+
+添加远程仓库
+创建ssh key
+- ssh-keygen -t rsa -C "youremail@example.com"
+链接远程仓库
+- git remote add origin git@github.com:michaelliao/learngit.git
