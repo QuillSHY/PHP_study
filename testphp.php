@@ -11,5 +11,10 @@ echo 'You are not using Internet Explorer.<br />';
 }
 echo $_SERVER['HTTP_USER_AGENT'];
 ?>
+<form action="action.php" method="post">
+ <p>姓名: <input type="text" name="name" /></p>
+ <p>年龄: <input type="text" name="age" /></p>
+ <p><input type="submit" /></p>
+</form>
 </body>
 </html>
